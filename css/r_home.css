@@ -1,0 +1,328 @@
+*{margin:0;padding:0;outline:0;} 
+
+body{
+    font-family: sans-serif; 
+	font-size: 14px; 
+	line-height: 18px;
+}
+#NavigationBar{
+    position: sticky;
+    top: 0;
+    z-index: 10px;
+}
+.navbar
+{
+    background: #f4f2f0;
+}
+.navbar-nav li
+{
+    padding-right: 48px;
+} 
+
+.navbar-nav li a
+{
+    color: black;
+}
+
+.navbar-logo {
+    display: block;
+    z-index: 2;
+    box-shadow: 0 0 16px -2px #222;
+    background-color: #fff;
+    color: #fff;
+    width: 230px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 100px;
+}
+
+.navbar-logo img {
+    padding: 14px 19px 19px;
+    margin: 0 auto;
+    width: 225px;
+}
+.headerimage{
+    
+    background-color: #fff;
+    color: #fff;
+    padding: 377px 0 calc(90px * 1.75);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+  
+.home-path{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    max-width: 1040px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    font-family: sans-serif;
+}
+.home-paths__item {
+    flex: 1 1 33.3333%;
+    text-align: center;
+}
+
+.home-paths__item a:first-child {
+    background-size: cover;
+    position: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 56px 0;
+    color: #f8981c;
+    font-style: oblique;
+}
+
+.home-paths__item em {
+    position: inherit;
+    font-size: 1.5rem;
+}
+.home-paths__item .summary {
+    padding: 1.25rem 0 0;
+}
+
+.summary {
+    font-family: serif;
+    color: black;
+    
+}
+.more {
+    
+    font-size: .875rem;
+    color: #f8981c;
+    border-bottom: .0625rem solid;
+}
+.more:hover{
+    text-decoration: none;
+}
+
+.home-updates {
+    text-align: center;
+    padding: 90px 0;
+}
+.home-updates h2{
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+    color: #6c553a;
+    line-height: 1.1;
+}
+.home-updates__wrap {
+    max-width: 1040px;
+    padding: 0 30px;
+    margin: 45px auto;
+    text-align: left;
+        display: flex;
+    justify-content: center;
+}
+
+.home-updates__wrap h3{
+    letter-spacing: .0625rem;
+    color: #e76f39;
+    margin: 0 0 1.625rem;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #e76f39;
+    color: #fff;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px
+}
+
+.icon img {
+    width: 24px;
+    height: 24px;
+
+}
+@media (min-width: 768px){
+.content-news {
+    flex: 1 1 50%;
+    border-right: 1px solid #b5aa9c;
+    padding: 20px 60px 20px 0;
+}
+}
+
+.content-news__item{
+    margin-bottom: 50px;
+}
+
+.meta {
+    letter-spacing: .03125rem;
+    font-size: .625rem;
+    line-height: .625rem
+}
+.content-news h2  {
+    margin-bottom: 20px;
+    line-height: 1.1;
+    font-size: 1.875rem;
+}
+
+.summary{
+        margin: 0 0 12px;
+}
+
+.button {
+    background-color: #e76f39;
+    color: #fff;
+    padding: 12px 34px 10px;
+    margin: 0 4px 0 0;
+    text-align: center;
+    letter-spacing: .125rem;
+    font-weight: 700;
+    font-size: .6875rem;
+    line-height: .6875rem;
+    display: inline-block;
+    border: 2px solid #e76f39;
+    border-radius: .125rem;
+}
+@media (min-width: 768px)
+{.upcoming-event {
+    flex: 1 1 50%;
+    padding: 20px 0 20px 60px;
+}
+}
+
+.upcoming-event__item {
+    display: flex;
+    margin-bottom: 77px;
+}
+
+.upcoming-event__photo {
+    display: block;
+    flex: 1 1 25%;
+}
+.upcoming-event__photo img
+{
+    display: block;
+    width: 96px;
+    height: 96px;
+}
+.upcoming-event__text {
+    flex: 1 1 75%;
+}
+.upcoming-event__text h2
+{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.home-sign-up{
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 30px;
+    text-align: center;
+    background-color: #e76f39;
+    z-index: 2;
+}
+.home-sign-up__wrap{
+    padding: 60px 20px;
+    color: #fff;
+    --color-secondary: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-sign-up__text{
+    text-align: left;
+}
+.home-sign-up__text h2{
+    font-weight: 400;
+    font-size: 3rem;
+}
+.home-sign-up__form {
+    text-align: center;
+    flex: 1 1 50%;
+    color: #323232;
+    border-radius: 5px;
+    padding: 24px;
+    font: 16px "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+        margin-left: 122px;
+   
+}
+.home-sign-up__form__email{
+    margin: 0 0 24px 0;
+    text-align: left;
+    box-sizing: border-box;
+}
+.home-sign-up__form__email input{
+    width: 100%;
+    height: 46px;
+    padding: 10px 15px;
+    border: 1px solid #b0b6bb;
+    background-color: #ffffff;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #323232;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.home-sign-up__form__email p{
+    color: white;
+}
+
+.home-sign-up__form__email select{
+    width: 100%;
+    height: 46px;
+    padding: 10px 15px;
+    border: 1px solid #b0b6bb;
+    background-color: #ffffff;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #323232;
+    display: inline-block;
+    margin-bottom: 55px;
+}
+
+.home-sign-up__form__email select:hover{
+     cursor: pointer;
+}
+
+.home-sign-up__form button{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #e76f39;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 16px;
+    line-height: 1;
+    border: none;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+.home-sign-up__form button:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.footer-end{
+ margin: 90px 0 0;
+    padding: 45px 0;
+    background-color: #f4f2f0;
+}
+
+

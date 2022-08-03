@@ -1,0 +1,132 @@
+#NavigationBar{
+   
+    top: 0;
+    z-index: 10px;
+}
+.navbar
+{
+    background: #f4f2f0;
+}
+.navbar-nav li
+{
+    padding-right: 48px;
+} 
+
+.navbar-nav li a
+{
+    color: black;
+}
+
+.navbar-logo {
+    display: block;
+    z-index: 2;
+    box-shadow: 0 0 16px -2px #222;
+    background-color: #fff;
+    color: #fff;
+    width: 230px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 100px;
+}
+
+.navbar-logo img {
+    padding: 14px 19px 19px;
+    margin: 0 auto;
+    width: 225px;
+}
+
+.form{
+    
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,.4);
+    padding: 100px;
+    border-radius: 4px;
+    padding-top: 20px;
+    width:1300px;
+    height: 
+}
+
+.form h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 21px;
+
+}
+
+.content{
+    padding-top: 40px;
+    margin-left: 150px;
+    text-align:justify;
+    color: white;   
+    width: 800px;
+    margin-bottom: 60px; 
+}
+.top{
+    margin-top: 20px;
+}
+.bottom{
+    margin-bottom: 80px;
+}
+.home-sign-up{
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 30px;
+    text-align: center;
+    background-color: #e76f39;
+    z-index: 2;
+}
+.home-sign-up__wrap{
+    padding: 60px 20px;
+    color: #fff;
+    --color-secondary: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-sign-up__text{
+    text-align: left;
+}
+.home-sign-up__text h2{
+    font-weight: 400;
+    font-size: 3rem;
+}
+.home-sign-up__form {
+    text-align: center;
+    flex: 1 1 50%;
+    color: #323232;
+    border-radius: 5px;
+    padding: 24px;
+    font: 16px "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+        margin-left: 122px;
+   
+}
+
+
+.home-sign-up__form button{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #e76f39;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 16px;
+    line-height: 1;
+    border: none;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+.home-sign-up__form button:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
