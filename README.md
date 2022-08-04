@@ -3,7 +3,8 @@
 A SOCIAL NETWORK BASED WEBSITE FOR CONNECTING THE SPECIAL CHILDREN & THOSE WHO CARE ABOUT SPECIAL CHILDREN.
 
 ### Users:
-#### Family, Doctor, Educator, Everyone
+- Family
+- Doctor, Educator, Everyone
 
 ### Features
  ###### 1.Create account
