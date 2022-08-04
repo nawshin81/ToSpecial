@@ -6,7 +6,7 @@ A SOCIAL NETWORK BASED WEBSITE FOR CONNECTING THE SPECIAL CHILDREN & THOSE WHO C
 #### Family, Doctor, Educator, Everyone
 
 ### Features
- Create account
+ Create account\n
  Posts filter
  Save posts
  Share posts
