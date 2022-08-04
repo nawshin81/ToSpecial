@@ -13,6 +13,6 @@ A SOCIAL NETWORK BASED WEBSITE FOR CONNECTING THE SPECIAL CHILDREN & THOSE WHO C
  ###### 5.Message options
 
 ### Technologies used
-#### UI(HTML,CSS)
-#### Backend(JS,PHP)
-#### Server(APACHE localhost)
+###### UI(HTML,CSS)
+###### Backend(JS,PHP)
+###### Server(APACHE localhost)
