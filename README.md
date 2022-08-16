@@ -14,6 +14,7 @@ A SOCIAL NETWORK BASED WEBSITE FOR CONNECTING THE SPECIAL CHILDREN & THOSE WHO C
 - Friends/ Followers
 - Like, Comment and report options (posts)
 - Message options
+- Searching (Posts and Users)
 
 ### Technologies used
 - UI(HTML,CSS)
