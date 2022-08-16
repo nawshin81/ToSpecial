@@ -10,9 +10,9 @@ A SOCIAL NETWORK BASED WEBSITE FOR CONNECTING THE SPECIAL CHILDREN & THOSE WHO C
 
 ### Features
 - Create account
-- Posts filter
-- Save posts
-- Share posts
+- Posts filter (based on followers)
+- Friends/ Followers
+- Like, Comment and report options (posts)
 - Message options
 
 ### Technologies used
